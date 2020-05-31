@@ -1,5 +1,5 @@
 body {
-  background: #222;
+  background: #444;
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
@@ -18,13 +18,15 @@ body {
 
 .square {
   background: #fff;
-  border: 1px solid #999;
+  border: 0px solid #999;
   font-size: 40px;
   font-weight: bold;
-  height: 100%;
-  width: 12.5%;
+  height: 90px;
+  width: 90px;
   margin-right: auto;
   margin-top: auto;
+  margin-left:auto;
+  margin-bottom:auto;
   padding: 0;
   text-align: center;
 }
@@ -33,10 +35,29 @@ body {
   outline: none;
 }
 
+.emptysquare {
+  background: #000;
+  border: 0px solid #999;
+  height: 0px;
+  width: 90px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-left:auto;
+  margin-bottom:auto;
+  padding: 0;
+  text-align: center;
+}
+
+.emptysquare:focus {
+  outline: none;
+}
 .kbd-navigation .square:focus {
   background: #ddd;
 }
 
+.kbd-navigation .emptysquare:focus {
+  background: #ddd;
+}
 .game {
   display: flex;
   flex-direction: row;
@@ -46,4 +67,5 @@ body {
   background: #fff;
   margin-left: 0.5%;
   flont-size: 100%;
+  padding: 0.5%;
 }
