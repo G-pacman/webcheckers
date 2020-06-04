@@ -22,6 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.index.js.swap
-.index.css.swap
+.index.js.swp
+.index.css.swp
+.app.js.swp
+.game.js.swp
+.board.js.swp
 
