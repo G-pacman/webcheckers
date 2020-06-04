@@ -27,9 +27,6 @@ export default class App extends React.Component {
   }
 
   render() {
-    //var x = document.getElementsByClassName("game-info").innerText; //(<div> It is {this.state.date.toLocaleTimeString()} </div> );
-    //var x = document.getElementById("time") ;
-    // x = "It is"+ this.state.date.toLocaleTimeString(); <div> {x} </div>
     return(
       <div>
         <Game />
