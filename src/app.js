@@ -30,7 +30,11 @@ export default class App extends React.Component {
     return(
       <div>
         <Game />
-        <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
+        <div className="game">
+          <div className="game-info">
+            <div><b>It is {this.state.date.toLocaleTimeString()}.</b></div>
+          </div>
+        </div>
       </div>
     );
   }

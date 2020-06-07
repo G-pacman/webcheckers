@@ -132,10 +132,7 @@ export default class Game extends React.Component {
         </div>
         <div className="game-info">
           <div>{status}</div>
-          <div>loc: row:{this.state.loc[0]} col:{this.state.loc[1]}</div>
-          <div>des: row:{this.state.des[0]} col:{this.state.des[1]}</div>
-          <div>red:{this.state.redpieces} blue:{this.state.bluepieces}</div>
-          <div id="time">time</div>
+          <div>loc: row:{this.state.loc[0]} col:{this.state.loc[1]} des: row:{this.state.des[0]} col:{this.state.des[1]} red:{this.state.redpieces} blue:{this.state.bluepieces}</div>
         </div>
       </div>
     );
